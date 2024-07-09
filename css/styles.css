@@ -2,6 +2,7 @@
 
 body{
     padding-bottom: 500px;
+    
 }
 
 h3{
@@ -66,4 +67,45 @@ h2{
 
 .simple-hex-2{
     color: #a5f;
+}
+
+/* rgb */
+
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb{
+    color: rgb(200, 8, 0);
+}
+
+/* rgba - mexe com a opacidade da cor*/
+
+.rgba{
+    color: rgba(201, 99, 76, 0.3);
+}
+
+.oppacite-rgba{
+    color: rgb(31, 37, 92, 0.1);
+}
+
+/* hsl*/
+
+.hsl{
+   color: hsl(500, 150%, 40%);
+}
+
+.hsl-2{
+    color: hsl(201, 88%, 49%);
+}
+
+/* background color */
+.bg {
+    background-color: #000000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
 }
