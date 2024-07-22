@@ -200,4 +200,11 @@ h2{
     width: 400px;
     padding: 50px;
 }
+.border-box{
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
  
