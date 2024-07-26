@@ -274,4 +274,33 @@ padding: 25px;
     height: 400px;
 }
 
+/* text align */
+.text-alignment{
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* text decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* text transform */
+.upper{
+text-transform: uppercase;
+}
+.lower{
+text-transform: lowercase;
+}
  
