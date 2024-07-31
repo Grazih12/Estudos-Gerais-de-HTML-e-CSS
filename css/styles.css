@@ -334,3 +334,48 @@ font-style: italic
 .oblique{
 font-style: oblique;
 }
+
+/*font weight*/
+.thin, .bold ,.bolder{
+    font-family: Helvetica;
+} 
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/*font size*/
+.small{
+font-size: 6px;
+background-color: magenta;
+color: white;
+}
+.big{
+font-size: 78px;
+background-color: magenta;
+color: white;
+}
+
+/* display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+/*Escondendo elementos*/
+.invisible{
+    display: none;
+}
