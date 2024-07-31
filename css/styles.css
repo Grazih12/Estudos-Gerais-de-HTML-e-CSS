@@ -303,4 +303,34 @@ text-transform: uppercase;
 .lower{
 text-transform: lowercase;
 }
- 
+
+/*letter spacing*/
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* fonts */
+.serif{
+    font-family: Georgia;
+}
+.sans-serif{
+    font-family: Helvetica;
+}
+.monospace{
+    font-family: 'Courier New';
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+/*font style*/
+
+.italic{
+font-style: italic
+}
+.oblique{
+font-style: oblique;
+}
